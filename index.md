@@ -1,10 +1,25 @@
 ## Introduction
-  The computer has change a lot seens first apparition. It became smaller and more powerfull. The smaller it becomes, then it is more influenced by [quantum physics](link). This means that if a transistor doesnt allow an electron to go any further, electron can transfer him self by a proces call [quantum tunneling](link). This is happanig beacuse usuall physics is no longer applied in on a quantum scale , this means 100 nanometers. So in '80 was initiated the field of quantum computing. ![quantum](https://github.com/playerjack/Quantum-Computing/blob/master/qP.png)
+  The computer has change a lot seens first apparition. It became smaller and more powerfull. The smaller it becomes, then it is more influenced by [quantum physics](link). This means that if a transistor doesnt allow an electron to go any further, electron can transfer him self by a proces call [quantum tunneling](link). This is happanig beacuse usuall physics is no longer applied in on a quantum scale , this means 100 nanometers. So in '80 was initiated the field of quantum computing. ![quantum](https://github.com/playerjack/Quantum-Computing/blob/master/Imagines/qP.png)
   
- ## Qbits
+## Qbits 
   Usuall computer works on bits, that has 2 basic states. In a quantum computer we have qbits, that can be an electron’s internal angular momentum, or spin, which has the peculiar quantum property of having only two possible projections on any coordinate axis: +1/2 or –1/2 (in units of the [Planck constant](link)). This means you have 2  basic states, as well: ↑ (that can be used as 0) and ↓ (that can be used as 1, because you need energy to make this electron to be in such state). 
-  This spin state is described by a formula that includes 2 complex numbers, lets say α and β call [quantum amplitudes](link). The rules of quantum mechanics says that the square of this numbers must add up to 1 and the square of this numbers is the probability of finding this electron in this state. Why probability of finding? Because quantum physics has something called [superposion](link), this means that the electron has both of states at the same time but when you look at it is showing one of them. ![real](https://github.com/playerjack/Quantum-Computing/blob/master/mustbe-cantbe.jpg).
-   When you have a system of 2 qbits you need 4 complex number ,that square of them must add up to 1. In generally if you have a sistem of N qbits you would 2 power N amplitudes, and this is the power of the quantum camputer. In over words if you have a computer of 64 bits, it is as strong as a quantum computer if 6 qbits.
-  ## Utilites 
-  
+  This spin state is described by a formula that includes 2 complex numbers, lets say α and β call [quantum amplitudes](link). The rules of quantum mechanics says that the square of this numbers must add up to 1 and the square of this numbers is the probability of finding this electron in this state. Why probability of finding? Because quantum physics has something called [superposion](link), this means that the electron has both of states at the same time but when you look at it is showing one of them. ![real](https://github.com/playerjack/Quantum-Computing/blob/master/Imagines/mustbe-cantbe.jpg)
+  When you have a system of 2 qbits you need 4 complex number ,that square of them must add up to 1. In generally if you have a sistem of N qbits you would 2 power N amplitudes, and this is the power of the quantum computer. In over words if you have a computer of 64 bits, it is as strong as a quantum computer if 6 qbits. 
+  With the help of [entaglement phenomenon](link), wich means that all qbits depends one on another, you can look at the posion of the first electron and calculate the position of all others.
+  Quantum gates work different from normal gates. It has the income of a superposion and changes it to another superposition. Basically an ellectron can be describe by 3 vectors in space. This gates change this vectors, but we are talking about superposition, so this gates manipulates the probabilites of the qbits state. The output of the the gate is another superposition.
+
+## Utilites 
+  With this new type of computer can be helpfull in some areas, like: security,sience and another aerias where you have a lage time of running a program beacuse a quantum alcoritm can run it in square root of that time. 
+### Sience 
+  Simulations are a very important for new discoveries. Usually they are made on on computers and it takes a lot of time. Because are a lot of variabels that have to be calculated for a more accurate result. Quantum computers are working faster exponentially. To take some numbers if a normal computer can make this simulation in 345600 second, wich is in 4 days, on quantum computer it would take 588 seconds wich means almost 10 minutes. I think it is a big difference.
+### Security
+  The biggest problem in security of modern computer is internet, that can provides (in some situations) information leak. This it is not a problem when with the help of entaglement phemenon the infomarmation is not transmitid pshysically but on a quantum level. This means that this electron and that electron (it does not matter if that electron is on the moon) are interecting with each other and if a know in what state is this electron I know in wich state is that electron. In this way you can comunicate. 
+
+## Conclusion 
+  This new type of computer can change the world, but it will not be the replacement for our classic computer. The algoritm of the quatum computers are very complicated, and doing simpe taks will not work faster, some time even slower that digital computer. When it comes to really big algorithms that take some time this is where you need this type of computer, especially when you know that to build such a computer is very hard.
+
+## Development
+  This kind of tehnology is being build by a lot of companies like: Microsoft, Google, IBM, Intel. IBM made an online platform that allow the users to simulte a quantum algorithm on their prototipe of quantum computer wich is call [IBM Q](link). This computer has 3 processors 2 of 5 qbits and on of 16 qbits. 
+  And Microsoft made a language called [Q#](link)( Q-sharp ), thats helps you to simulate a program as if it is on 30 qbits or 40 if you use Azure. So you can expirience the quantum computer by your self 
    
+
