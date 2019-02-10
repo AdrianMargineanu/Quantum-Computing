@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/playerjack/Quantum-Computing/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/playerjack/Quantum-Computing/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Introduction
+  The computer has change a lot seens first apparition. It became smaller and more powerfull. The smaller it becomes, then it is more influenced by [quantum physics](link). This means that if a transistor doesnt allow an electron to go any further, electron can transfer him self by a proces call [quantum tunneling](link). This is happanig beacuse usuall physics is no longer applied in on a quantum scale , this means 100 nanometers. So in '80 was initiated the field of quantum computing.![image](https://github.com/playerjack/Quantum-Computing/blob/master/qP.jpg)
+  
+ ## Qbits
+  Usuall computer works on bits, that has 2 basic states. In a quantum computer we have qbits, that can be an electron’s internal angular momentum, or spin, which has the peculiar quantum property of having only two possible projections on any coordinate axis: +1/2 or –1/2 (in units of the [Planck constant](link)). This means you have 2  basic states, as well: ↑ (that can be used as 0) and ↓ (that can be used as 1, because you need energy to make this electron to be in such state). 
+  This spin state is described by a formula that includes 2 complex numbers, lets say α and β call [quantum amplitudes](link). The rules of quantum mechanics says that the square of this numbers must add up to 1 and the square of this numbers is the probability of finding this electron in this state. Why probability of finding? Because quantum physics has something called [superposion](link), this means that the electron has both of states at the same time but when you look at it is showing one of them.![image](https://github.com/playerjack/Quantum-Computing/blob/master/mustbe-cantbe.jpg).
+   When you have a system of 2 qbits you need 4 complex number ,that square of them must add up to 1. In generally if you have a sistem of N qbits you would 2 power N amplitudes, and this is the power of the quantum camputer. In over words if you have a computer of 64 bits, it is as strong as a quantum computer if 6 qbits.
+   
+   
