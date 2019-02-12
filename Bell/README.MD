@@ -4,15 +4,15 @@ This is a test for understanding quantum computer and Q#. This program is creati
 
 ## Requirement
 For running this code you will need The Quantum Development Kit and can be used either with the Visual Studio 2017 integrated development environment, or a development editor such as Visual Studio Code. Alternatively, the Quantum Development Kit can be used with the command line directly. You cand find the steps for installing the Quantum Developtment Kit:
-	*for Visual Studio 2017 [here][https://docs.microsoft.com/en-us/quantum/install-guide/vs-2017?view=qsharp-preview]
-	*for Visual Studio Code [here][https://docs.microsoft.com/en-us/quantum/install-guide/vs-code?view=qsharp-preview]
-	*for Command Line [here][https://docs.microsoft.com/en-us/quantum/install-guide/command-line?view=qsharp-preview]
+	*for Visual Studio 2017 [here](https://docs.microsoft.com/en-us/quantum/install-guide/vs-2017?view=qsharp-preview)
+	*for Visual Studio Code [here](https://docs.microsoft.com/en-us/quantum/install-guide/vs-code?view=qsharp-preview)
+	*for Command Line [here](https://docs.microsoft.com/en-us/quantum/install-guide/command-line?view=qsharp-preview)
 ## Runnig 
 To run this program you will need to download the download the map Bell. Open the code using Visual Studio 2017 and just hit 'F5' or, if you are using Command Line/Visual Studio Code write the the following commands
-	`````````````
+`````````````
 	$ cd Bell
 	$ dotnet run
-	`````````````
+`````````````
 ## Explanation 
 Q# is a language used for expressing quantum algorithms. This means you will need a program that simulates qbits. This is why you need Driver.cs, wich will hold the C# driver for your quantum code. Your code is in file Bell.qs
 
