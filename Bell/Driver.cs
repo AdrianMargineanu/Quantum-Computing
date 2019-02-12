@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Margineanu Adrian
+using System;
 
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
@@ -11,7 +12,6 @@ namespace Quantum.Bell
         {
              using (var qsim = new QuantumSimulator())
             {
-                // Try initial values
                 Result[] initials = new Result[] { Result.Zero, Result.One };
                 foreach (Result initial in initials)
                 {

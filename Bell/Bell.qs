@@ -1,4 +1,5 @@
-﻿namespace Quantum.Bell
+﻿//Margineanu Adrian
+namespace Quantum.Bell
 {
     open Microsoft.Quantum.Primitive;
     open Microsoft.Quantum.Canon;
@@ -31,8 +32,7 @@
                 {   
                     set agree = agree + 1;
                 }
-
-                // Count the number of ones we saw:
+                
                 if (res == One)
                 {
                     set numOnes = numOnes + 1;
@@ -42,8 +42,6 @@
             Set(Zero, qubits[0]);
             Set(Zero, qubits[1]);
         }
-
-        // Return number of times we saw a |0> and number of times we saw a |1>
         return (count-numOnes, numOnes, agree);
     }
 }
