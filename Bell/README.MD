@@ -41,7 +41,7 @@ operation Set (desired: Result, q1: Qubit) : Unit
 `````````````````````````````````````````````````
 This operation is setting the qbit to the known state. Variable 'current' is saving the current valiue of the qubit with 'M()'. If this state is different from the state we want, it will applie 'X()' operation, that will change the state.
 
-#### Operation Bell test
+#### Operation BellTest
 ````````````````````````````````````````````````````````````````````
  operation BellTest (count : Int, initial: Result) : (Int, Int, Int)
     {
