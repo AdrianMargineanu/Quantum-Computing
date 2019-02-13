@@ -92,7 +92,7 @@ I will not explain in details C#, because this is not my scope. What we need to 
     }
 }
 `````````````````````````````````````````````````````````````````
-In our case it is running 1000 times the code of Q# for init 'Zero' and 1000 for init 'One' and it is showing the results of it.
+In our case it is running 1000 times the code of Q# for init `Zero` and 1000 for init 'One' and it is showing the results of it.
 
 ## Results
 The results of running should be like this:
