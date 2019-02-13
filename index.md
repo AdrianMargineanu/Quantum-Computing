@@ -26,6 +26,7 @@ This new type of computer can change the world, but it will not be the replaceme
 
 ## Development
 This kind of technology built by a lot of companies like: Microsoft, Google, IBM, Intel. IBM made an online platform that allows the users to test a quantum algorithm on their prototype of quantum computer which is called [IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience). 
+
 ![IBM](Imagies/IBM.jpg)
 
 This computer has 3 processors: 2 of 5 qbits and one of 16 qbits. 
