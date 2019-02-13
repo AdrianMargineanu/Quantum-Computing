@@ -8,7 +8,8 @@ This spin state is described by a formula that includes 2 complex numbers, let`s
 								![real](Imagies/mustbe.png)
 
 When you have a system of 2 qbits you need 4 complex numbers ,that square of them must add up to 1. In general, if you have a system of N qbits you would have 2 powered N amplitudes, and this is the power of the quantum computer. In other words, if you have a computer of 64 bits, it is as strong as a quantum computer of 6 qbits. 
-With the help of [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others. 
+With the help of [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others.
+
 ![image](Imagies/entanglement.jpg)
 
 Quantum gates work different from normal gates. It has the income of a superposion and changes it to another superposition. Basically an electron can be described by 3 vectors in space. These gates change this vectors, but we are talking about superposition, so these gates manipulate the probabilites of the qbits state. The output of the the gate is another superposition.
@@ -26,6 +27,7 @@ This new type of computer can change the world, but it will not be the replaceme
 ## Development
 This kind of technology built by a lot of companies like: Microsoft, Google, IBM, Intel. IBM made an online platform that allows the users to test a quantum algorithm on their prototype of quantum computer which is called [IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience). 
 ![IBM](Imagies/IBM.jpg)
+
 This computer has 3 processors: 2 of 5 qbits and one of 16 qbits. 
 And Microsoft made a programing language called [Q#](https://www.microsoft.com/en-us/quantum/development-kit)( Q-sharp ), that helps you to simulate a programme as if it is on 30 qbits or 40 if you use Azure. So you can experience the quantum computer by yourself. I coded a little programme in Q# to test the entanglement of qubits. You can find it [here](https://github.com/playerjack/Quantum-Computing/tree/master/Bell). 
    
