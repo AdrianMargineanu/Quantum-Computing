@@ -1,11 +1,13 @@
 ## Introduction
-The computer has changed a lot since its first apparition. It's become smaller and more powerful, and as the size decreases, it gets more and more influenced by [quantum physics](https://www.sciencedaily.com/terms/introduction_to_quantum_mechanics.htm). This means that if a transistor doesn't allow an electron to go any further, the electron can transfer itself through a process called [quantum tunneling](https://www.azoquantum.com/Article.aspx?ArticleID=12). This is happening, because classic physics doesn't apply on a quantum scale, meaning less than 100 nanometers. So, in the '80s, the field of quantum computing was initiated. 
-								![quantum](/Imagies/qp.jpg)
+The computer has changed a lot since its first apparition. It's become smaller and more powerful, and as the size decreases, it gets more and more influenced by [quantum physics](https://www.sciencedaily.com/terms/introduction_to_quantum_mechanics.htm). This means that if a transistor doesn't allow an electron to go any further, the electron can transfer itself through a process called [quantum tunneling](https://www.azoquantum.com/Article.aspx?ArticleID=12). This is happening, because classic physics doesn't apply on a quantum scale, meaning less than 100 nanometers. So, in the '80s, the field of quantum computing was initiated.
+
+![quantum](/Imagies/qp.jpg)
   
 ## Qbits 
 Classic computers work on bits, that have 2 basic states. In a quantum computer we have qbits, that can be an electron’s internal angular momentum or spin, which has the peculiar quantum property of having only two possible projections on any coordinate axis: +1/2 or –1/2 (in units of the [Planck's constant](https://whatis.techtarget.com/definition/Plancks-constant)). This means you have 2 basic states as well: ↑ (that can be used as 0) and ↓ (that can be used as 1, because you need energy to make this electron be in such a state). 
 This spin state is described by a formula that includes 2 complex numbers, let`s say α and β, wich are called [quantum amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude). The rules of quantum mechanics say that the squares of these numbers must add up to 1 and each square represents the probability of finding the electron in the respective state. Why probability of finding? Because quantum physics has something called [superposition](http://www.physics.org/article-questions.asp?id=124), which means that the electron is in both states at the same time, but when you look at it it's only showing one of them. 
-								![real](Imagies/mustbe.png)
+
+![real](Imagies/mustbe.png)
 
 When you have a system of 2 qbits you need 4 complex numbers and their squares must add up to 1. In general, if you have a system of N qbits you would have 2 raised to the power of N amplitudes and this represents the power of the quantum computer. In other words, if you have a computer of 64 bits, it is as powerful as a quantum computer of 6 qbits. 
 With the help of the [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others.
