@@ -8,7 +8,9 @@ This spin state is described by a formula that includes 2 complex numbers, let`s
 								![real](Imagies/mustbe.png)
 
 When you have a system of 2 qbits you need 4 complex numbers ,that square of them must add up to 1. In general, if you have a system of N qbits you would have 2 powered N amplitudes, and this is the power of the quantum computer. In other words, if you have a computer of 64 bits, it is as strong as a quantum computer of 6 qbits. 
-With the help of [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others. ![image](Imagies/entanglement.jpg)
+With the help of [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others. 
+![image](Imagies/entanglement.jpg)
+
 Quantum gates work different from normal gates. It has the income of a superposion and changes it to another superposition. Basically an electron can be described by 3 vectors in space. These gates change this vectors, but we are talking about superposition, so these gates manipulate the probabilites of the qbits state. The output of the the gate is another superposition.
 
 ## Utilites 
