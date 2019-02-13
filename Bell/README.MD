@@ -9,7 +9,7 @@ For running this code you will need The Quantum Development Kit and can be used 
 * for Command Line [here](https://docs.microsoft.com/en-us/quantum/install-guide/command-line?view=qsharp-preview)
 
 ## Running 
-To run this programmme you will need to download the directory Bell. Open the code using Visual Studio 2017 and just hit 'F5' or, if you are using Command Line/Visual Studio Code write the the following commands:
+To run this programmme you will need to download the directory Bell. Open the code using Visual Studio 2017 and just hit `F5` or, if you are using Command Line/Visual Studio Code write the the following commands:
 `````````````
 	$ cd Bell
 	$ dotnet run
@@ -39,7 +39,7 @@ operation Set (desired: Result, q1: Qubit) : Unit
     }
 }
 `````````````````````````````````````````````````
-This operation is setting the qbit to the known state. Variable 'current' is saving the current value of the qubit with 'M()'. If this state is different from the state we want, it will apply 'X()' operation, that will change the state.
+This operation is setting the qbit to the known state. Variable `current` is saving the current value of the qubit with `M()`. If this state is different from the state we want, it will apply `X()` operation, that will change the state.
 
 #### Operation BellTest
 ````````````````````````````````````````````````````````````````````
@@ -75,10 +75,10 @@ This operation is setting the qbit to the known state. Variable 'current' is sav
         return (count-numOnes, numOnes, agree);
     }
 ````````````````````````````````````````````````````````````````````
-This operation is testing the superposition of the qbits and if there is an Entanglement between the qbits.We will test it in a ' for ' for 'count' times. First of all we set a qbit that is 'initial' state and the second qbit to 'Zero' state. We apply the 'H()' operation on the first qbit, this means that it will be an equal probability to be 0 or 1. Then we use the 'CNOT()' operation on both qbits. This operation is used to make Entanglemant. This means that if qubits[0] is 0 the second one is for sure 0, and if qubits[0] is 1 the second one is 1. Then we verify. First it is counting how many times the state of qubits[0] is equal to qubits[1]. Second it is counting the numbers of state 1. The result of the operation is number of times the state was 0 for the qubits[0]  ('count-numOnes'), how many times it was 1 ('numOnes'), and how many times the state of the qubits was indetical ('agree'). After every test we reset both qbits on zero.
+This operation is testing the superposition of the qbits and if there is an Entanglement between the qbits.We will test it in a ` for ` for `count` times. First of all we set a qbit that is `initial` state and the second qbit to `Zero` state. We apply the `H()` operation on the first qbit, this means that it will be an equal probability to be 0 or 1. Then we use the `CNOT()` operation on both qbits. This operation is used to make Entanglemant. This means that if qubits[0] is 0 the second one is for sure 0, and if qubits[0] is 1 the second one is 1. Then we verify. First it is counting how many times the state of qubits[0] is equal to qubits[1]. Second it is counting the numbers of state 1. The result of the operation is number of times the state was 0 for the qubits[0]  (`count-numOnes`), how many times it was 1 (`numOnes`), and how many times the state of the qubits was indetical (`agree`). After every test we reset both qbits on zero.
 
 ### Drive.cs
-I will not explain in details C#, because this is not my scope. What we need to understand is that this code is a driver that helps you to see the result of the Q# code. we use the class ' QuantumSimulator ' that expose the quantum simulator. To execute it we need to pass 'Run' method to the quantum operation you want to execute.
+I will not explain in details C#, because this is not my scope. What we need to understand is that this code is a driver that helps you to see the result of the Q# code. we use the class ` QuantumSimulator ` that expose the quantum simulator. To execute it we need to pass `Run` method to the quantum operation you want to execute.
 `````````````````````````````````````````````````````````````````
  using (var qsim = new QuantumSimulator())
 {
@@ -92,7 +92,7 @@ I will not explain in details C#, because this is not my scope. What we need to 
     }
 }
 `````````````````````````````````````````````````````````````````
-In our case it is running 1000 times the code of Q# for init `Zero` and 1000 for init 'One' and it is showing the results of it.
+In our case it is running 1000 times the code of Q# for init `Zero` and 1000 for init `One` and it is showing the results of it.
 
 ## Results
 The results of running should be like this:
