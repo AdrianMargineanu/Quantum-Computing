@@ -7,9 +7,18 @@ Classic computers work on bits, that have 2 basic states. In a quantum computer 
 This spin state is described by a formula that includes 2 complex numbers, let`s say α and β, wich are called [quantum amplitudes](https://en.wikipedia.org/wiki/Probability_amplitude). The rules of quantum mechanics say that the squares of these numbers must add up to 1 and each square represents the probability of finding the electron in the respective state. Why probability of finding? Because quantum physics has something called [superposition](http://www.physics.org/article-questions.asp?id=124), which means that the electron is in both states at the same time, but when you look at it it's only showing one of them. 
 								![real](Imagies/mustbe.png)
 
+<<<<<<< HEAD
 When you have a system of 2 qbits you need 4 complex numbers and their squares must add up to 1. In general, if you have a system of N qbits you would have 2 raised to the power of N amplitudes and this represents the power of the quantum computer. In other words, if you have a computer of 64 bits, it is as powerful as a quantum computer of 6 qbits. 
 With the help of the [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others. ![image](Imagies/entanglement.jpg)
 Quantum gates work different from normal gates. They have the input of a superposition and change it to another superposition. Basically an electron can be described by 3 vectors in space. These gates change these vectors, but we are talking about superposition, so these gates manipulate the probabilites of the qbits' state. The output of the the gate is another superposition.
+=======
+When you have a system of 2 qbits you need 4 complex numbers ,that square of them must add up to 1. In general, if you have a system of N qbits you would have 2 powered N amplitudes, and this is the power of the quantum computer. In other words, if you have a computer of 64 bits, it is as strong as a quantum computer of 6 qbits. 
+With the help of [entanglement phenomenon](https://www.sciencedaily.com/terms/quantum_entanglement.htm), which means that all qbits depend one on another, you can look at the position of the first electron and calculate the position of all others.
+
+![image](Imagies/entanglement.jpg)
+
+Quantum gates work different from normal gates. It has the income of a superposion and changes it to another superposition. Basically an electron can be described by 3 vectors in space. These gates change this vectors, but we are talking about superposition, so these gates manipulate the probabilites of the qbits state. The output of the the gate is another superposition.
+>>>>>>> 169c9966b027ef945e0557fc44ed7df1e261c2c0
 
 ## Utilites 
 This new type of computer can be helpful in some areas, such as security, science and the ones where you run a program for a very long time, because a quantum algorithm can run it in that time's square root. 
@@ -22,8 +31,17 @@ The biggest problem regarding the security of modern computers is the internet, 
 This new type of computer can change the world, but it will not be the replacement for our classic computer. The algorithm of a quantum computer is very complicated, and doing simple tasks will not make it faster. Some researchers actually timed it at certain tasks and it performed poorer than digital computers. When it comes to really big algorithms that take more time, quantum computers are what we need.
 
 ## Development
+<<<<<<< HEAD
 This kind of technology is being developed by many companies, such as: Microsoft, Google, IBM, Intel. IBM made an online platform that allows the users to test a quantum algorithm on their quantum computer prototype, called [IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience). 
 ![IBM](Imagies/IBM.jpg)
 This computer has 3 processors: 2 with 5 qbits and one with 16 qbits. 
 Microsoft made a programming language called [Q#](https://www.microsoft.com/en-us/quantum/development-kit)( Q-sharp ), which can be used to simulate a program as if it was running on 30 qbits, or 40, if you use Azure. So, you can experience the quantum computer by yourself. I coded a small program in Q# to test the entanglement of qbits. You can find it [here](https://github.com/playerjack/Quantum-Computing/tree/master/Bell). 
+=======
+This kind of technology built by a lot of companies like: Microsoft, Google, IBM, Intel. IBM made an online platform that allows the users to test a quantum algorithm on their prototype of quantum computer which is called [IBM Q](https://quantumexperience.ng.bluemix.net/qx/experience). 
+
+![IBM](Imagies/IBM.jpg)
+
+This computer has 3 processors: 2 of 5 qbits and one of 16 qbits. 
+And Microsoft made a programing language called [Q#](https://www.microsoft.com/en-us/quantum/development-kit)( Q-sharp ), that helps you to simulate a programme as if it is on 30 qbits or 40 if you use Azure. So you can experience the quantum computer by yourself. I coded a little programme in Q# to test the entanglement of qubits. You can find it [here](https://github.com/playerjack/Quantum-Computing/tree/master/Bell). 
+>>>>>>> 169c9966b027ef945e0557fc44ed7df1e261c2c0
    
